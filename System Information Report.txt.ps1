@@ -1,4 +1,4 @@
-﻿# Define output HTML file path
+﻿# Define output HTML file path in browser-accessible location
 $DesktopPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath("Desktop"), "Server_Configuration_Report.html")
 $HtmlFilePath = $DesktopPath
 
